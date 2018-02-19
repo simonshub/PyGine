@@ -6,6 +6,35 @@ import env
 
 
 
+# tries to fetch a named graphic
+def get_grf (key):
+    if isinstance(key,str) and key in Resources.graphics.keys():
+        return Resources.graphics[key]
+    elif isinstance(key,str):
+        utils.log_err("Tried to fetch graphics '"+key+"' but no such one exists")
+    else:
+        utils.log_err("Tried to fetch graphics but passed key was not a string")
+
+# tries to fetch a named sound
+def get_snd (key):
+    if isinstance(key,str) and key in Resources.sounds.keys():
+        return Resources.sounds[key]
+    elif isinstance(key,str):
+        utils.log_err("Tried to fetch sound '"+str(key)+"' but no such one exists")
+    else:
+        utils.log_err("Tried to fetch sound but passed key was not a string")
+
+# tries to fetch a named script
+def get_scr (key):
+    if isinstance(key,str) and key in Resources.scripts.keys():
+        return Resources.scripts[key]
+    elif isinstance(key,str):
+        utils.log_err("Tried to fetch script '"+str(key)+"' but no such one exists")
+    else:
+        utils.log_err("Tried to fetch script but passed key was not a string")
+
+
+
 class Resources:
 
     # these dictionaries are used to store loaded resources.

@@ -2,10 +2,13 @@ import pygame
 import json
 import os
 
+import states
 import utils
+import res
 
 
 
+# contains constants regarding the locations of important stuff
 class Environment:
 
     SETTINGS_FILE_PATH = "data/settings.cfg"
@@ -17,6 +20,47 @@ class Environment:
 
 
 
+# contains camera data
+class Camera:
+
+    location = [0,0]
+    zoom = 1.
+
+
+
+# contains all the game states, and indicates the one currently active
+class GameStates:
+
+    active_state = "playing"
+
+    states = {
+        "menu": states.Gamestate_Menu(),
+        "playing": states.Gamestate_Playing(),
+    }
+
+    def get_active(self):
+        return self.states[self.active_state]
+
+    def get(self, key):
+        if isinstance(key, str) and key in self.states.keys(): return self.states[key]
+        else: return None
+
+
+
+# renders something; if a string is passed, it is resolved by the resource manager
+def render(what, where, scale=(1.,1.), rotation=0, size=(-1,-1)):
+    if isinstance(what,str):
+        what = res.get_grf(what)
+    if size[0] > 0 and size[1] > 0:
+        what = pygame.transform.scale(what, size)
+    elif scale[0] > 0 and scale[1] > 0:
+        new_size = (old_size*factor for old_size,factor in zip(what.get_size(),scale))
+        what = pygame.transform.scale(what, new_size)
+    if rotation != 0:
+        what = pygame.transform.rotate(what, rotation)
+    Game.screen.blit(what, where)
+
+# contains game data
 class Game:
 
     DEFAULT_SCREEN_SIZE = (1280,1024)
@@ -40,6 +84,8 @@ class Game:
     }
 
     stopped = False
+
+    screen = None
 
     @staticmethod
     def init():
