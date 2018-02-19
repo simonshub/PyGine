@@ -1,7 +1,9 @@
 import urllib.request
+import traceback
 import _thread
 import socket
 import json
+import os
 
 import players
 import utils
@@ -67,24 +69,20 @@ class ServerConnection:
 
 
 
-
 class Server:
 
     RECEIVE_MSG_BUFFER_SIZE = 2048
 
-    server = ["10.10.11.130",12345]
+    server = ["localhost",12345]
+    console = True
     connection_list = {}
 
     def __init__(self, address=server[0], port=server[1]):
+        utils.log("Starting server at "+address+":"+str(port)+"...")
         self.server = [ address, port ]
         _thread.start_new_thread(self.start_receiving, ())
-
-        #while True:
-            #msg = input("Message: ")
-            #if msg == "exit": break
-            #for key in list(self.connection_list):
-                #if key in self.connection_list:
-                    #self.connection_list[key].send(msg)
+        _thread.start_new_thread(self.console_thread, ())
+        utils.log("Started...")
 
     def close(self):
         utils.log("Closing server and cleaning open connections...")
@@ -103,7 +101,19 @@ class Server:
                 self.connection_list[conn_key] = ServerConnection(addr, c, None, self)
                 utils.log("Connection to "+conn_key+" open!")
         except socket.error:
-            utils.log_err("Message receiver thread stopped")
+            utils.log_err("Server message receiver thread stopped!")
+
+    def console_thread(self):
+        utils.log("Starting console...")
+        while self.console:
+            try:
+                user_entry = input("console -- ")
+                utils.log("Server Console: "+user_entry)
+                exec(user_entry)
+            except (ValueError,RuntimeError):
+                utils.log_err("Error in console; " + traceback.format_exc())
+            else:
+                utils.log_err("Error in console; Unknown error?\n" + traceback.format_exc())
 
     @staticmethod
     def get_ip():
@@ -171,7 +181,6 @@ class Client:
                 except ValueError:
                     utils.log("Got message from server '"+self.get_key()+"':\n"+data)
         except socket.error:
-            utils.log_err("Message receiver thread stopped!")
-
+            utils.log_err("Client message receiver thread stopped!")
 
 

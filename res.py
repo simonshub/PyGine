@@ -33,7 +33,18 @@ def get_scr (key):
     else:
         utils.log_err("Tried to fetch script but passed key was not a string")
 
-
+# renders something; if a string is passed, it is resolved by the resource manager
+def render(what, where, scale=(1.,1.), rotation=0, size=(-1,-1)):
+    if isinstance(what,str):
+        what = get_grf(what)
+    if size[0] > 0 and size[1] > 0:
+        what = pygame.transform.scale(what, size)
+    elif scale[0] > 0 and scale[1] > 0:
+        new_size = (old_size*factor for old_size,factor in zip(what.get_size(),scale))
+        what = pygame.transform.scale(what, new_size)
+    if rotation != 0:
+        what = pygame.transform.rotate(what, rotation)
+    env.Game.screen.blit(what, where)
 
 class Resources:
 

@@ -35,11 +35,10 @@ def start_server():
     utils.log("Starting...")
 
     # initialize game
-    env.Game.init()
+    env.Game.init(True)
 
     # start the host service
-    network.Server()
-
+    network.Server(address=network.Server.get_ip())
 
     utils.log("Ready!")
     while not env.Game.stopped:

@@ -28,19 +28,6 @@ class Camera:
 
 
 
-# renders something; if a string is passed, it is resolved by the resource manager
-def render(what, where, scale=(1.,1.), rotation=0, size=(-1,-1)):
-    if isinstance(what,str):
-        what = res.get_grf(what)
-    if size[0] > 0 and size[1] > 0:
-        what = pygame.transform.scale(what, size)
-    elif scale[0] > 0 and scale[1] > 0:
-        new_size = (old_size*factor for old_size,factor in zip(what.get_size(),scale))
-        what = pygame.transform.scale(what, new_size)
-    if rotation != 0:
-        what = pygame.transform.rotate(what, rotation)
-    Game.screen.blit(what, where)
-
 # contains game data
 class Game:
 
@@ -69,7 +56,7 @@ class Game:
     screen = None
 
     @staticmethod
-    def init():
+    def init(nowindow=False):
         utils.log("Loading settings...")
         # check if settings file exists
         if os.path.isfile(Environment.SETTINGS_FILE_PATH):
@@ -137,14 +124,16 @@ class Game:
             dump_file.close()
             utils.log_err("Failed to create default bindings file!")
 
-        # initialize pygame
-        utils.log("Initializing PyGame library...")
-        pygame.mixer.pre_init(44100, 16, 2, 4096)
-        pygame.init()
-        Game.screen = pygame.display.set_mode(Game.settings["screen_size"])
-        pygame.display.set_caption(Game.settings["title"])
-        pygame.display.set_icon(pygame.image.load(Game.settings["icon"]))
-        utils.log("PyGame library initialized!")
+        # if the nowindow flag is set, do not initialize pygame
+        if not nowindow:
+            # initialize pygame
+            utils.log("Initializing PyGame library...")
+            pygame.mixer.pre_init(44100, 16, 2, 4096)
+            pygame.init()
+            Game.screen = pygame.display.set_mode(Game.settings["screen_size"])
+            pygame.display.set_caption(Game.settings["title"])
+            pygame.display.set_icon(pygame.image.load(Game.settings["icon"]))
+            utils.log("PyGame library initialized!")
 
 
 
