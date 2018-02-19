@@ -28,25 +28,6 @@ class Camera:
 
 
 
-# contains all the game states, and indicates the one currently active
-class GameStates:
-
-    active_state = "playing"
-
-    states = {
-        "menu": states.Gamestate_Menu(),
-        "playing": states.Gamestate_Playing(),
-    }
-
-    def get_active(self):
-        return self.states[self.active_state]
-
-    def get(self, key):
-        if isinstance(key, str) and key in self.states.keys(): return self.states[key]
-        else: return None
-
-
-
 # renders something; if a string is passed, it is resolved by the resource manager
 def render(what, where, scale=(1.,1.), rotation=0, size=(-1,-1)):
     if isinstance(what,str):
@@ -164,3 +145,37 @@ class Game:
         pygame.display.set_caption(Game.settings["title"])
         pygame.display.set_icon(pygame.image.load(Game.settings["icon"]))
         utils.log("PyGame library initialized!")
+
+
+
+    # contains all the game states, and indicates the one currently active
+    class States:
+
+        # contains the key of the currently active game state
+        active = "playing"
+
+        # contains a map of all added game states - each state has it's own class in the states.py file
+        states = {
+            "menu": states.Gamestate_Menu(),
+            "playing": states.Gamestate_Playing(),
+        }
+
+        # returns the currently active game state
+        @staticmethod
+        def get_active():
+            return Game.States.states[Game.States.active]
+
+        # enters the targeted game state
+        @staticmethod
+        def set_active(key):
+            if Game.States.get(key) is not None:
+                Game.States.active = key
+                Game.States.get_active().enter()
+
+        # returns the game state of the given key (name)
+        @staticmethod
+        def get(key):
+            if isinstance(key, str) and key in Game.States.states:
+                return Game.States.states[key]
+            else:
+                return None

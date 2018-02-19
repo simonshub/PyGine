@@ -29,6 +29,7 @@ class GameMap:
 
     tile_map = [[]]
     width, height = 0, 0
+    player_list = {  }
 
     # initialize a map for editing
     def __init__(self, width, height):
