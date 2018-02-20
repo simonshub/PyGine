@@ -31,7 +31,11 @@ def start_client(address=None, port=None):
     while not env.Game.stopped:
         # collect events into list
         events = pygame.event.get()
+
+        # update game states with event list
         env.Game.States.get_active().update(events)
+
+        # resolve user input and send to server
 
         # clear the screen
         env.Game.screen.fill((0, 0, 0))

@@ -20,8 +20,8 @@ class Player:
     facing = 0
 
     def __init__(self, info):
-        self.color = info.color
-        self.player_name = info.player_name
+        self.color = info["color"]
+        self.player_name = info["player_name"]
 
     # renders this players on-screen
     def render(self):
@@ -38,9 +38,9 @@ class PlayerConnectionPackage:
     # the display color of the player
     color = ( 255,0,0 )
 
-    def __init__(self, name, color):
-        self.player_name = name
-        self.color = color
+    def __init__(self, info):
+        self.color = info["color"]
+        self.player_name = info["player_name"]
 
 
 
@@ -51,13 +51,19 @@ class PlayerInputPackage:
     input_press_list = [ ]
     # this list contains all binds that have been invoked at the KEYUP event type
     input_release_list = [ ]
+    # contains buttons from mouse button presses from the MOUSEBUTTONDOWN event type
+    mouse_press_input = [ ]
+    # contains buttons from mouse button releases from the MOUSEBUTTONUP event type
+    mouse_release_input = [ ]
     # contains the x and y coordinates of the mouse location for this client
     mouse_location = ( 100,100 )
 
-    def populateInputs(self, events):
+    def populate_inputs(self, events):
         # clear input lists of last update
         self.input_press_list = [ ]
         self.input_release_list = [ ]
+        self.mouse_press_input = [ ]
+        self.mouse_release_input = [ ]
 
         # update mouse position
         self.mouse_location = pygame.mouse.get_pos()
@@ -77,9 +83,9 @@ class PlayerInputPackage:
                         # get the pressed key's corresponding command, and add it to the input list
                         self.input_release_list.append(bind)
             # if it's a mouse press...
-            elif event.type is pygame.MOUSEBUTTONUP:
-                pass
-            # if it's a mouse release...
             elif event.type is pygame.MOUSEBUTTONDOWN:
-                pass
+                self.mouse_press_input.append(event.key)
+            # if it's a mouse release...
+            elif event.type is pygame.MOUSEBUTTONUP:
+                self.mouse_release_input.append(event.key)
         # done - this object is ready for sending!
