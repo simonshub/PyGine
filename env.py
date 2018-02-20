@@ -55,6 +55,8 @@ class Game:
 
     screen = None
 
+    network_object = None
+
     @staticmethod
     def init(nowindow=False):
         utils.log("Loading settings...")

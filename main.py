@@ -1,11 +1,12 @@
 import pygame
 
+import threading
 import network
 import utils
 import env
 import res
 
-def start_client():
+def start_client(address=None, port=None):
     utils.log("Starting...")
 
     # initialize game
@@ -14,7 +15,17 @@ def start_client():
     res.Resources.init()
 
     # start the client connection
-    network.Client()
+    if address is None and port is None:
+        env.Game.network_object = network.Client()
+    elif address is None:
+        env.Game.network_object = network.Client(port=port)
+    elif port is None:
+        env.Game.network_object = network.Client(address=address)
+    else:
+        env.Game.network_object = network.Client(address=address, port=port)
+
+    networking_thread = threading.Thread(target=env.Game.network_object.start)
+    networking_thread.start()
 
     utils.log("Ready!")
     while not env.Game.stopped:
@@ -31,14 +42,24 @@ def start_client():
         # show n tell
         pygame.display.update()
 
-def start_server():
+def start_server(address=None, port=None):
     utils.log("Starting...")
 
     # initialize game
     env.Game.init(True)
 
     # start the host service
-    network.Server(address=network.Server.get_ip())
+    if address is None and port is None:
+        env.Game.network_object = network.Server()
+    elif address is None:
+        env.Game.network_object = network.Server(port=port)
+    elif port is None:
+        env.Game.network_object = network.Server(address=address)
+    else:
+        env.Game.network_object = network.Server(address=address, port=port)
+
+    networking_thread = threading.Thread(target=env.Game.network_object.start)
+    networking_thread.start()
 
     utils.log("Ready!")
     while not env.Game.stopped:

@@ -18,10 +18,10 @@ class Tile:
     # renders the tile at the specified on-screen location
     def render(self, location):
         if self.pathable:
-            env.render(res.get_grf(Tile.PATHABLE_TILE_GRAPHICS), location, size=Tile.TILE_GRAPHICS_SIZE)
+            res.render(res.get_grf(Tile.PATHABLE_TILE_GRAPHICS), location, size=Tile.TILE_GRAPHICS_SIZE)
         else:
             # env.render(res.get_grf(Tile.IMPATHABLE_TILE_GRAPHICS), location)
-            None
+            pass
 
 
 
@@ -29,7 +29,7 @@ class GameMap:
 
     tile_map = [[]]
     width, height = 0, 0
-    player_list = {  }
+    player_list = [ ]
 
     # initialize a map for editing
     def __init__(self, width, height):
@@ -43,6 +43,10 @@ class GameMap:
     # renders the map using the environment camera
     def render(self):
         w, h = Tile.TILE_GRAPHICS_SIZE
+
         for y in range(self.height):
             for x in range(self.width):
                 self.tile_map[y][x].render((x*w,y*h))
+
+        for player in self.player_list:
+            player.render()

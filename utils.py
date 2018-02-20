@@ -1,3 +1,4 @@
+import traceback
 import datetime
 import time
 
@@ -59,7 +60,7 @@ def log (what, log_level="log"):
             print("Unable to log line '"+what+"' because the log file has been closed!")
 
 def log_err (what):
-    log(what,"err")
+    log(what + "\n" + traceback.format_exc(),"err")
 
 def log_wrn (what):
     log(what,"wrn")
