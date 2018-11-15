@@ -1,0 +1,2398 @@
+2018-02-25 15:27:44  ---  LOG  ---  Starting...
+2018-02-25 15:27:44  ---  LOG  ---  Loading settings...
+2018-02-25 15:27:44  ---  LOG  ---  Loading bindings...
+2018-02-25 15:27:44  ---  LOG  ---  Loading player info...
+2018-02-25 15:27:44  ---  LOG  ---  Initializing PyGame library...
+2018-02-25 15:27:44  ---  LOG  ---  PyGame library initialized!
+2018-02-25 15:27:44  ---  LOG  ---  Initializing resources...
+2018-02-25 15:27:44  ---  LOG  ---  Loaded graphics 'arrow-dunk'
+2018-02-25 15:27:44  ---  LOG  ---  Loaded graphics 'blade-fall'
+2018-02-25 15:27:44  ---  LOG  ---  Loaded graphics 'bowman'
+2018-02-25 15:27:44  ---  LOG  ---  Loaded graphics 'tile'
+2018-02-25 15:27:44  ---  LOG  ---  Loaded sound 'wauw'
+2018-02-25 15:27:44  ---  LOG  ---  Attempting to connect to server at 192.168.1.68:12345...
+2018-02-25 15:27:44  ---  LOG  ---  Ready!
+2018-02-25 15:27:44  ---  LOG  ---  Connected to server at 192.168.1.68:12345!
+2018-02-25 15:27:44  ---  LOG  ---  Starting console...
+2018-02-25 15:27:44  ---  LOG  ---  Sent data '{
+    "color": [
+        255,
+        255,
+        0
+    ],
+    "name": "Huron"
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:28  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:50  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:50  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:50  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:50  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:50  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:50  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:50  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:50  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:50  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:50  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:50  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:50  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:50  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:50  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:50  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:50  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:50  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:50  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:50  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:50  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:50  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:50  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:50  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:50  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:50  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:51  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:24:37  ---  LOG  ---  Starting...
+2018-02-25 15:24:37  ---  LOG  ---  Loading settings...
+2018-02-25 15:24:37  ---  LOG  ---  Loading bindings...
+2018-02-25 15:24:37  ---  LOG  ---  Starting server at 192.168.1.68:12345...
+2018-02-25 15:24:37  ---  LOG  ---  Ready!
+2018-02-25 15:24:37  ---  LOG  ---  Starting console...
+2018-02-25 15:24:37  ---  LOG  ---  Starting server message receiver thread...
+2018-02-25 15:24:37  ---  LOG  ---  Ready for new incoming connections!
+2018-02-25 15:24:48  ---  LOG  ---  Receiving connection from 192.168.1.68:56195...
+2018-02-25 15:24:48  ---  LOG  ---  Connection to 192.168.1.68:56195 open!
+2018-02-25 15:24:48  ---  LOG  ---  Received connection package from client '192.168.1.68:56195'!
+2018-02-25 15:27:31  ---  LOG  ---  Connection to client '192.168.1.68:56195' has been closed.
+2018-02-25 15:27:31  ---  ERR  ---  Message receiver thread stopped for client '192.168.1.68:56195'!
+Traceback (most recent call last):
+  File "C:\Users\XyRoN\PycharmProjects\Pygine\network.py", line 66, in start_receiving
+    data = self.channel.recv(Client.RECEIVE_MSG_BUFFER_SIZE).decode('utf-8')
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:27:31  ---  LOG  ---  Closed connection to client 192.168.1.68:56195
+2018-02-25 15:27:44  ---  LOG  ---  Receiving connection from 192.168.1.68:56200...
+2018-02-25 15:27:44  ---  LOG  ---  Received connection package from client '192.168.1.68:56200'!
+2018-02-25 15:27:44  ---  LOG  ---  Connection to 192.168.1.68:56200 open!
+2018-02-25 15:28:12  ---  LOG  ---  Server Console: print(env.Game.network_object)
+2018-02-25 15:29:19  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:50  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:50  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:50  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:50  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:50  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:50  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:50  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:50  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:50  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:50  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:50  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:50  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:50  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:50  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:50  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:50  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:50  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:50  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:50  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:50  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:50  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:50  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:50  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:50  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:50  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:51  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  WRN  ---  Debug - VALID INPUT PACKAGE!
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:52  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  LOG  ---  Sent data '{
+    "input_press_list": [],
+    "input_release_list": [],
+    "mouse_press_input": [],
+    "mouse_release_input": [],
+    "mouse_location": [
+        809,
+        508
+    ]
+}' to '192.168.1.68:12345'
+2018-02-25 15:29:53  ---  ERR  ---  Client message receiver thread stopped!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 262, in start_receiving
+    data = self.socket_to_server.recv(Client.RECEIVE_MSG_BUFFER_SIZE).decode('utf-8')
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+2018-02-25 15:29:53  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+2018-02-25 15:29:53  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:53  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:53  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:53  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:53  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:53  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:53  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:53  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:53  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:53  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:53  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:53  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:53  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:53  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:53  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:53  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:53  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:53  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:53  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:53  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:53  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:53  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:53  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:53  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:53  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:53  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:53  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:53  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:53  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:54  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:54  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...
+2018-02-25 15:29:55  ---  ERR  ---  Failed to send data!
+Traceback (most recent call last):
+  File "C:/Users/XyRoN/PycharmProjects/Pygine\network.py", line 246, in send
+    sent = self.socket_to_server.send(json_data.encode('utf-8'))
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+2018-02-25 15:29:55  ---  WRN  ---  Unable to send data to server; client connection to '192.168.1.68:12345' broken! Auto-cleaning connection...

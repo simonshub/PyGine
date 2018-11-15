@@ -1,3 +1,4 @@
+
 import pygame
 
 import env
@@ -8,10 +9,10 @@ import env
 class Player:
 
     # the display name of the player
-    player_name = ""
+    name = "Player"
 
     # the drawing color of the player
-    color = ( 255,0,0 )
+    color = [ 255,0,0 ]
 
     # the on-map location of the player in x and y
     location = [ 100,100 ]
@@ -20,8 +21,8 @@ class Player:
     facing = 0
 
     def __init__(self, info):
+        self.name = info["name"]
         self.color = info["color"]
-        self.player_name = info["player_name"]
 
     # renders this players on-screen
     def render(self):
@@ -33,14 +34,14 @@ class Player:
 class PlayerConnectionPackage:
 
     # the display name of the player
-    player_name = "Player1"
+    name = "Player1"
 
     # the display color of the player
-    color = ( 255,0,0 )
+    color = [ 255,0,0 ]
 
     def __init__(self, info):
         self.color = info["color"]
-        self.player_name = info["player_name"]
+        self.name = info["name"]
 
 
 

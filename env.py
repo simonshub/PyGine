@@ -1,22 +1,29 @@
+
 import pygame
 import json
 import os
 
 import states
 import utils
-import res
 
 
 
 # contains constants regarding the locations of important stuff
 class Environment:
 
+    # the file path of the settings.cfg file, relative to the current directory
     SETTINGS_FILE_PATH = "data/settings.cfg"
+    # the file path of the bindings.cfg file, relative to the current directory
     BINDINGS_FILE_PATH = "data/bindings.cfg"
+    # the file path of the player_info.cfg file, relative to the current directory
+    PLAYER_INFO_FILE_PATH = "data/player_info.cfg"
 
-    RES_GRAPHICS_PATH = "res/graphics/"
+    # the file path of sound resources, relative to the current directory
     RES_SOUNDS_PATH = "res/sounds/"
+    # the file path of script resources, relative to the current directory
     RES_SCRIPTS_PATH = "res/scripts/"
+    # the file path of graphic resources, relative to the current directory
+    RES_GRAPHICS_PATH = "res/graphics/"
 
 
 
@@ -51,6 +58,11 @@ class Game:
         "": None,
     }
 
+    player_info = {
+        "name": "Unknown",
+        "color": [ 255,0,0 ]
+    }
+
     stopped = False
 
     screen = None
@@ -58,7 +70,7 @@ class Game:
     network_object = None
 
     @staticmethod
-    def init(nowindow=False):
+    def init(client=False):
         utils.log("Loading settings...")
         # check if settings file exists
         if os.path.isfile(Environment.SETTINGS_FILE_PATH):
@@ -126,8 +138,42 @@ class Game:
             dump_file.close()
             utils.log_err("Failed to create default bindings file!")
 
-        # if the nowindow flag is set, do not initialize pygame
-        if not nowindow:
+        # if the client flag is set, do not initialize pygame
+        if not client:
+            utils.log("Loading player info...")
+            # check if player info file exists
+            if os.path.isfile(Environment.PLAYER_INFO_FILE_PATH):
+                # exists - read it
+                with open(Environment.PLAYER_INFO_FILE_PATH) as player_info_file:
+                    data = json.load(player_info_file)
+                # check whether all player info keys exist in the opened file
+                bad = False
+                try:
+                    for binding_key in Game.player_info:
+                        if binding_key not in data:
+                            # if a key is missing, log it and recreate the default settings file
+                            utils.log_wrn("Missing player info key '"+binding_key+"'! Reverting to default settings...")
+                            json_data = json.dumps(Game.player_info, indent=4, separators=(',',':'))
+                            dump_file = open(Environment.PLAYER_INFO_FILE_PATH, "w")
+                            dump_file.write(json_data)
+                            dump_file.close()
+                            bad = True
+                            break
+                except ValueError:
+                    utils.log_err("Failed to read player info file; bad JSON format")
+                # set settings
+                if not bad:  Game.player_info = data
+
+            else:
+                # does not exist - create it
+                utils.log("No player info file, creating new file with defaults...")
+                json_data = json.dumps(Game.player_info, indent=4, separators=(',',':'))
+                dump_file = open(Environment.PLAYER_INFO_FILE_PATH, "w")
+                dump_file.write(json_data)
+                dump_file.close()
+                utils.log_err("Failed to create default player info file!")
+
+
             # initialize pygame
             utils.log("Initializing PyGame library...")
             pygame.mixer.pre_init(44100, 16, 2, 4096)

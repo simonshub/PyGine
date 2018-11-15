@@ -1,3 +1,4 @@
+
 import urllib.request
 import threading
 import socket
@@ -5,18 +6,20 @@ import json
 
 import players
 import utils
+import env
 
 
 
 
 class ServerConnection:
 
-    address = None
-    channel = None
-    player = None
-    parent = None
+    address = None # the address of this client
+    channel = None # the connection object
+    player = None # the player info of this client
+    parent = None # the parent server object
 
     listen = True
+    player_is_ready = False
 
     def __init__(self, address, conn, player, parent):
         self.address = address
@@ -24,13 +27,14 @@ class ServerConnection:
         self.player = player
         self.parent = parent
 
-        receiving_thread = threading.Thread(target=self.start_receiving())
-        receiving_thread.start()
-        receiving_thread.join()
-
     def __del__(self):
         self.close()
         utils.log("Closed connection to client "+self.get_key())
+
+    def start(self):
+        receiving_thread = threading.Thread(target=self.start_receiving)
+        receiving_thread.setDaemon(True)
+        receiving_thread.start()
 
     def get_key(self):
         return ":".join(str(i) for i in self.address)
@@ -64,7 +68,6 @@ class ServerConnection:
                     data = self.channel.recv(Client.RECEIVE_MSG_BUFFER_SIZE).decode('utf-8')
                     try:
                         json_data = json.loads(data)
-                        utils.log("Got object from client '"+self.get_key()+"':\n"+data)
 
                         # check for valid player connection package
                         conn_dict = players.PlayerConnectionPackage.__dict__
@@ -73,7 +76,16 @@ class ServerConnection:
                             if key not in conn_dict:
                                 is_valid_connection_pkg = False
                         if is_valid_connection_pkg:
-                            self.player = players.Player(json_data)
+                            # if the received package is a valid connection package,
+                            # read it and save it's contents to the current player
+                            # and set the player_is_ready flag to true!
+                            if self.player_is_ready:
+                                utils.log_wrn("Received connection package from client '"+self.get_key()+"', but client already connected! Ignoring old package...")
+                                self.player = players.Player(json_data)
+                            else:
+                                utils.log("Received connection package from client '"+self.get_key()+"'!")
+                                self.player = players.Player(json_data)
+                            self.player_is_ready = True
                         else:
                             # check for valid player input package
                             input_dict = players.PlayerInputPackage.__dict__
@@ -87,7 +99,8 @@ class ServerConnection:
                                 utils.log_wrn("Could not interpret client package...")
                                 raise ValueError
                     except ValueError:
-                        # ValueError here means the
+                        # ValueError here means the package received was not a JSON object,
+                        # but rather a regular text message, used for events
                         utils.log("Got message from client '"+self.get_key()+"':\n"+data)
 
                 except (ConnectionResetError, ConnectionAbortedError, ConnectionRefusedError, ConnectionError):
@@ -100,11 +113,11 @@ class ServerConnection:
 
 
 
+default_server = ["0.0.0.0", 12345]
+
 class Server:
 
     RECEIVE_MSG_BUFFER_SIZE = 2048
-
-    server = ["10.10.11.130",12345]
 
     connection_list = {}
     connection_socket = None
@@ -112,9 +125,13 @@ class Server:
     open = True
     console = True
 
-    def __init__(self, address=server[0], port=server[1]):
-        self.server[0] = address
-        self.server[1] = port
+    server = default_server
+
+    def __init__(self, address=default_server[0], port=default_server[1]):
+        if address is not None:
+            self.server[0] = address
+        if port is not None:
+            self.server[1] = port
 
     def start(self):
         address = self.server[0]
@@ -125,6 +142,7 @@ class Server:
         console_thread.start()
 
         receiving_thread = threading.Thread(target=self.start_receiving)
+        receiving_thread.setDaemon(True)
         receiving_thread.start()
 
         console_thread.join() # wait for listener thread to end
@@ -141,6 +159,8 @@ class Server:
 
     def start_receiving(self):
         utils.log("Starting server message receiver thread...")
+        conn_key = "?"
+
         try:
             self.connection_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             self.connection_socket.bind(tuple(self.server))
@@ -151,6 +171,7 @@ class Server:
                 conn_key = ":".join(str(i) for i in addr)
                 utils.log("Receiving connection from "+conn_key+"...")
                 self.connection_list[conn_key] = ServerConnection(addr, c, None, self)
+                self.connection_list[conn_key].start()
                 utils.log("Connection to "+conn_key+" open!")
         except socket.error:
             utils.log_err("Server message receiver thread stopped!")
@@ -201,6 +222,7 @@ class Client:
         console_thread.start()
 
         receiving_thread = threading.Thread(target = self.start_receiving)
+        receiving_thread.setDaemon(True)
         receiving_thread.start()
 
         console_thread.join() # wait for listener thread to end
@@ -221,6 +243,10 @@ class Client:
             self.socket_to_server = None
 
     def send(self, data):
+        if self.socket_to_server is None:
+            utils.log_err("Tried to send data to server, but connection is closed...")
+            return
+
         if isinstance(data, str):
             json_data = data
         else:
@@ -237,16 +263,13 @@ class Client:
 
         if sent == 0:
             utils.log_wrn("Unable to send data to server; client connection to '"+self.get_key()+"' broken! Auto-cleaning connection...")
-            self.socket_to_server.close()
+            self.close()
         else:
             utils.log("Sent data '"+json_data+"' to '"+self.get_key()+"'")
 
     def start_receiving(self):
         try:
-            plr_name = input("Enter your player name (ex. 'Paul'); ")
-            plr_color = [int(x) for x in input("Enter your player's color (ex. '255 255 0'); ").split()]
-
-            plr_conn_pkg = players.PlayerConnectionPackage( { "player_name": plr_name, "color": plr_color } )
+            plr_conn_pkg = players.PlayerConnectionPackage(env.Game.player_info)
             self.send(plr_conn_pkg)
 
             while self.listen:
@@ -268,5 +291,3 @@ class Client:
                 exec(user_entry)
             except:
                 utils.log_err("Error in console; ")
-
-

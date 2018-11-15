@@ -1,3 +1,4 @@
+
 import pygame
 
 import gamemap
@@ -15,7 +16,7 @@ class Gamestate_Playing:
     def enter(self):
         None
 
-    def update(self, events=[]):
+    def update(self, events=()):
         for event in events:
             if event.type is pygame.QUIT:
                 # quit game (window exit button clicked)
